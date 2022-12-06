@@ -7,7 +7,8 @@ let package = Package(
     name: "Harvester",
     platforms: [.iOS(.v13), .macOS(.v11)],
     products: [
-        .library(name: "Harvester", targets: ["Harvester", "XCTestHarvester"]),
+        .library(name: "Harvester", targets: ["Harvester"]),
+        .library(name: "XCTestHarvester", targets: ["XCTestHarvester"]),
     ],
     dependencies: [],
     targets: [
