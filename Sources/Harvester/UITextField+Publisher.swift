@@ -1,7 +1,7 @@
 import UIKit
 import Combine
 
-extension UITextField {
+public extension UITextField {
 
     ///
     /// Continously publishes typed text from UITextField

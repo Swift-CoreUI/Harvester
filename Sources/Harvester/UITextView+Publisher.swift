@@ -1,7 +1,7 @@
 import UIKit
 import Combine
 
-extension UITextView {
+public extension UITextView {
 
     ///
     /// Continously publishes typed text from UITextView
